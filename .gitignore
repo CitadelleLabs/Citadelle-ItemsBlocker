@@ -48,3 +48,7 @@ gradle-app.setting
 .classpath
 
 .idea
+
+# IDE
+
+.vscode

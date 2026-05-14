@@ -36,6 +36,7 @@ shadowJar {
     relocate("eu.okaeri", "pl.flezy.itemsblocker.libs.eu.okaeri")
     relocate("co.aikar", "pl.flezy.itemsblocker.libs.co.aikar")
     archiveClassifier.set('')
+    archiveFileName.set('Citadelle-ItemsBlocker.jar')
 }
 
 assemble.dependsOn(shadowJar)
