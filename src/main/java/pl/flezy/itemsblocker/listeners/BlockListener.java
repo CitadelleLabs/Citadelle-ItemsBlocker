@@ -3,7 +3,6 @@ package pl.flezy.itemsblocker.listeners;
 import io.papermc.paper.event.block.BlockPreDispenseEvent;
 import io.papermc.paper.event.player.PlayerInventorySlotChangeEvent;
 import org.bukkit.entity.Item;
-import org.bukkit.event.Event;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockDropItemEvent;
@@ -16,7 +15,6 @@ import org.bukkit.event.player.*;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import pl.flezy.itemsblocker.manager.BlockManager;
-import pl.flezy.itemsblocker.manager.SmithingManager;
 
 import java.util.List;
 
